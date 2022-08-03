@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    display: flex;
+    position: sticky;
+}
+#logo img {
+    width: 60px;
+    height: 60px;
+}
+#item{
+    font-size: 20px;
+    margin: 20px;
+}
+#item :hover{
+    background-color: white;
+    color: black;
+    border: 2 solid white;
+    padding: 8px;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#home{
+    background-image: url('https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background: url('https://images.pexels.com/photos/5531659/pexels-photo-5531659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover ;
+    background-image: url('https://images.pexels.com/photos/2373520/pexels-photo-2373520.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-image: url('https://images.pexels.com/photos/10718224/pexels-photo-10718224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.h-primary{
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+}
+#btn{
+    margin: 33px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    background-color:black;
+    padding: 10px;
+    color: white;
+}
+#btn:hover{
+    transform: scale(1.05);
+}
+#menu{
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu1{
+    margin:30px;
+    height: 100%;
+    background-image: linear-gradient( to right, black 0%, #0cd3dd 51%, black 100% );
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#menu1>div{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color:white;
+    box-sizing: border-box;
+}
+#menu1>div:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px black;
+}
+#menu1 div img{
+    width: 300px;
+    height: 300px;
+}
+#bt{
+    margin: 10px;
+    border: 2px solid white ;
+    border-radius: 5px;
+    background-color:grey;
+    padding: 5px;
+    color: white;
+}
+#bt:hover{
+    transform: scale(1.05);
+}
+#offers1{
+    margin: 30px 300px 30px 300px;
+    height: 100%;
+    /*background-image: linear-gradient( to right, #8eeb8e, #0cd3dd 51%, #8eeb8e);
+    background-color: #585882;*/
+    background-image: url("https://thumbs.dreamstime.com/z/discount-tags-hanging-over-gray-background-50539618.jpg");
+    background-image: url("https://png.pngtree.com/png-clipart/20220620/original/pngtree-sale-discount-banner-for-promotion-offer-tag-png-image_8129207.png");
+    background-image: url("https://www.crushpixel.com/big-static14/preview4/special-offer-tag-sign-1623210.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0RC5llOhF_C50KXE6W80Ga61so0eYFbVijQ&usqp=CAU");
+    background-image: url("https://www.seekpng.com/png/detail/93-933979_red-design-png-svg-black-and-white-stock.png");
+    background-image: url("https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat:no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+}
+offers{
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 60px;
+}
+#contacts{
+
+}
